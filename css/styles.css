@@ -49,6 +49,9 @@ body {
 /*<!--PAGE HEADER-->*/
 
 .page-header {
+    width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -139,6 +142,8 @@ body {
 
 .section {
     background-color: #2e2f42;
+    padding-top: ;
+    padding-bottom: ;
 }
 
 .main-head {
@@ -152,6 +157,7 @@ body {
     padding-right: 334px;
     padding-left: 328px;
     padding-bottom: 48px;
+
 
 }
   
@@ -232,9 +238,13 @@ position: absolute;
 
 /*<!--INGREDIENTS SECTION 3-->*/
 
-.workers-head {
-   
+.workers-background {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.workers-head {
+   color: var(--primari-text-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -242,22 +252,23 @@ position: absolute;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 
 .workers-menu {
     display: flex;
     justify-content: flex-start;
+
 }
 
 .workers-person {
     background-color: #FFFFFF;
-    gap: 24px;
-    padding-top: 72px;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
     
 }
 
 .workers-names {
-       background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -265,6 +276,8 @@ position: absolute;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 
 }
 
