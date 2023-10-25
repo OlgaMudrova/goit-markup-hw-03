@@ -203,13 +203,9 @@ body {
     
   /*<!--OUR BENEFITS 2-->*/
 
-  .made-benefits {
-    
+    .made-benefits {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-  .made-benefits {
-  
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 56px;
@@ -220,26 +216,32 @@ body {
     text-align: center;
     width: 496px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 8px;
 }
 .visually-hidden {
+    
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }   
+}   
+  
+.made-menu {
+    display: flex;
+    gap: 24px;
     
-
+}
 
 .made-menu-item {
-    background-color: #FFFFFF;  
+    background-color: #FFFFFF;
+    margin-right: 24px; 0; 
+    
 }
 
 .made-menu-item-name {
@@ -249,9 +251,11 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+   
 }
 
 .made-menu-item-text {
+    
     background-color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -262,6 +266,7 @@ body {
 }
 
 .made-menu-item {
+    
     width: calc((100% - 72px) / 4);
 }
 
