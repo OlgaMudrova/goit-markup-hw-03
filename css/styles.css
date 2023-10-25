@@ -269,6 +269,7 @@ position: absolute;
 }
 
 .workers-names {
+    color: var(--primari-text-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
