@@ -163,10 +163,11 @@ body {
     color: #FFFFFF;
     display: block;
     text-align: center;
+    display: block;  margin: 0 auto;
    }
   
 .button-action {
-       background-color: #4D5AE5;
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-size: 16px;
     font-weight: 500;
@@ -190,15 +191,21 @@ body {
     top: 72px;
 }
 .button-action {
+    min-width: 169px;
+    height: 56px;
+    color: #ffffff;
+    background-color: #4D5AE5;
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+margin-top: 48px;
     display: block;
-    padding: 16px 32px;
-  border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
-
-  min-width: 169px;
-  height: 56px;
-  border: none;   
+       border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;   
 }
     
   /*<!--OUR BENEFITS 2-->*/
@@ -216,7 +223,7 @@ body {
     text-align: center;
     width: 496px;
     margin: 0 auto;
-    margin-bottom: 8px;
+    margin-bottom: 48px;
 }
 .visually-hidden {
     
@@ -240,7 +247,7 @@ body {
 
 .made-menu-item {
     background-color: #FFFFFF;
-    margin-right: 24px; 0; 
+    margin-right: 24px; 
     
 }
 
@@ -266,7 +273,7 @@ body {
 }
 
 .made-menu-item {
-    
+    margin-bottom: 8px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -299,7 +306,7 @@ body {
 .workers-person {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
     
 }
