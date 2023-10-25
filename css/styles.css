@@ -76,6 +76,7 @@ body {
     text-transform: uppercase;
     color: #2E2F42;
     margin-right: 76px;
+   
 }
 .logotype {
     font-family: "Raleway", sans-serif;
@@ -86,6 +87,7 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4d5ae5;
+    
 }
 
 .list {
@@ -276,9 +278,9 @@ margin-top: 48px;
 .workers-menu {
     display: flex;
     justify-content: flex-start;
-
+    gap: 24px;
+    padding: 32px 0;
 }
-
 
 .workers-person {
     background-color: #FFFFFF;
@@ -289,8 +291,7 @@ margin-top: 48px;
 }
 
 .workers-names {
-    
-    font-size: 20px;
+        font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -302,8 +303,7 @@ margin-top: 48px;
 }
 
 .workers-positions {
-    
-    font-size: 16px;
+        font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -315,9 +315,9 @@ margin-top: 48px;
 
 /*<!--PAGE PORTFOLIO 4-->*/
 .portfolio {
-    padding: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
+
 
 .portfolio-images-title {
     margin-bottom: 72px;
