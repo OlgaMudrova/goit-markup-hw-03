@@ -145,11 +145,11 @@ body {
 
 .section {
     background-color: #2e2f42;
-    padding-top: ;
-    padding-bottom: ;
+  
 }
 
 .main-head {
+   
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -165,6 +165,7 @@ body {
 }
   
 .button-action {
+   
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-size: 16px;
@@ -191,7 +192,7 @@ body {
 .button-action {
     display: block;
     padding: 16px 32px;
-  border: 4px;
+  border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
     
@@ -199,11 +200,32 @@ body {
     
   /*<!--OUR BENEFITS 2-->*/
 
+  .made-benefits {
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .made-benefits {
+  
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    text-align: center;
+    width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+    
+    
 .made-menu-benefits {
 position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    margin: 1px;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -264,6 +286,7 @@ position: absolute;
 
 }
 
+
 .workers-person {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
@@ -273,7 +296,7 @@ position: absolute;
 }
 
 .workers-names {
-    color: var(--primari-text-color);
+    
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -286,7 +309,7 @@ position: absolute;
 }
 
 .workers-positions {
-     background-color: #FFFFFF;
+    
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -317,10 +340,11 @@ position: absolute;
     text-transform: capitalize;
     color: #2E2F42;
 
-    .container-portfolio-two {
-      padding: 32px 16px;
-      border: 1px solid #e7e9fc;
-      border-top: none;  
+        .portfolio-two {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+        margin-bottom: 8px;
     }
 }
 .portfolio-list list {
@@ -369,13 +393,6 @@ row-gap: 40px;
     background-color: #FFFFFF;
 }
 
-.app {
-    padding: 32px 16px;
-    border: 1px sould;
-    border-top: none;
-    margin-bottom: 8px;
-}
-
 
 /*<!--PAGE FOOTER-->*/
 .footer-block {
@@ -420,10 +437,12 @@ row-gap: 40px;
     background-color: #2e2f42;
     color: #F4F4FD;
 
+
 }
 
 .footer-block .footer-span {
     color: #F4F4FD;
+
 }
 
 .footer-block  .footer-logo {
