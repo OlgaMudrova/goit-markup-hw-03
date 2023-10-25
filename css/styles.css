@@ -61,15 +61,11 @@ body {
 .page-header-container {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
- }
+}
 
 .page-navigation {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
 }
 .logotype-span {
@@ -125,22 +121,18 @@ body {
 .menu-contakt:focus {
     color: #404BBF;
 }  
-.address {
-    font-style: normal;
-} 
 
 .list {
     display: flex;
     gap: 40px; 
 }
 
-.address-list {
-    padding: 24px 0;
-}
+.address {
+    font-style: normal;
+} 
 
 .address-list {
     display: flex;
-     margin-right: 40px;  
 }
 
 
@@ -212,18 +204,7 @@ margin-top: 48px;
     .made-benefits {
     padding-top: 120px;
     padding-bottom: 120px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-size: 56px;
-    font-weight: 700;
-    letter-spacing: 1.12px;
-    line-height: 1.07;
-    color: #FFFFFF;
-    text-align: center;
-    width: 496px;
-    margin: 0 auto;
-    margin-bottom: 48px;
-}
+   }
 .visually-hidden {
     
     position: absolute;
@@ -245,10 +226,8 @@ margin-top: 48px;
 }
 
 .made-menu-item {
-    margin-bottom: 8px;
-    background-color: #FFFFFF;
-    margin-right: 24px; 
-    width: calc((100% - 72px) / 4); 
+        background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4); 
 }
 
 .made-menu-item-name {
@@ -257,6 +236,7 @@ margin-top: 48px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: #2E2F42;
    
 }
@@ -383,14 +363,7 @@ margin-top: 48px;
     }
 
 .portfolio-list-item {
-    row-gap: 48px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    align-items: stretch;
-    justify-content: space-between;
-    background-color: #FFFFFF;
+    
     width: calc((100% - 48px) / 3);
 }
 
