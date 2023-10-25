@@ -145,8 +145,16 @@ body {
 
 .section {
     background-color: #2e2f42;
+    letter-spacing: 0.02px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-buttom: 188px;
   
 }
+
+
 
 .main-head {
    
