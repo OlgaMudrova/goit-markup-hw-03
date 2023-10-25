@@ -144,37 +144,28 @@ body {
 /*<!-- HERO SECTION 1-->*/
 
 .section {
-    background-color: #2e2f42;
-    letter-spacing: 0.02px;
-    display: flex;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 188px;
-    padding-buttom: 188px;
-  
+    padding: 188px 0;
+    background: #2e2f42;
+      
 }
-
-
-
+ 
+ 
 .main-head {
-   
-    font-size: 56px;
+    max-width: 496px;
+font-family: "Roboto", sans-serif;
+       font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 200px;
-    padding-right: 334px;
-    padding-left: 328px;
-    padding-bottom: 48px;
-
-
+    display: block;
+    text-align: center;
+    
 }
   
 .button-action {
-   
-    background-color: #4D5AE5;
+       background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-size: 16px;
     font-weight: 500;
@@ -203,7 +194,6 @@ body {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-    
 }
     
   /*<!--OUR BENEFITS 2-->*/
