@@ -145,7 +145,7 @@ body {
 
 .address-list {
     display: flex;
-    margin-right: 40px 0;
+    gap: 40px 0;
 }
 
 /*<!-- HERO SECTION 1-->*/
