@@ -44,7 +44,6 @@ body {
         margin: 0 auto;
         padding: 0 15px 0 15px;
         padding: 0 15px;
-        
     }
 
 
@@ -109,6 +108,7 @@ body {
     text-align: left;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
     
 }
 .menu-link:hover {
@@ -131,7 +131,9 @@ body {
 .menu-contakt:focus {
     color: #404BBF;
 }  
-
+.list{
+    mrgin: 0;
+    }
 .list {
     display: flex;
     gap: 40px; 
