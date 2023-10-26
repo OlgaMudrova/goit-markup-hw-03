@@ -380,7 +380,11 @@ margin-top: 48px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-}
+    }
+
+    .portfolio-list .portfolio-list-item {
+        margin-bottom: 8px;
+    }
 
 /*<!--PAGE FOOTER-->*/
 .footer-block {
