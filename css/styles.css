@@ -148,10 +148,6 @@ body {
     margin-right: 40px 0;
 }
 
-.address-made-item {
-    margin-right: 40px 0;
-}
-
 /*<!-- HERO SECTION 1-->*/
 
 .section {
@@ -273,8 +269,7 @@ margin-top: 48px;
 /*<!--INGREDIENTS SECTION 3-->*/
 
 .workers-add {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 .workers-background {
     background-color: #F4F4FD;
@@ -306,7 +301,6 @@ margin-top: 48px;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
-    padding: 32px 0;
     
 }
 
@@ -317,7 +311,6 @@ margin-top: 48px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    margin-top: 32px;
     margin-bottom: 8px;
     
 }
