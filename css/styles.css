@@ -270,6 +270,9 @@ margin-top: 48px;
 
 /*<!--INGREDIENTS SECTION 3-->*/
 
+.container {
+    padding: 32px 0 32px;
+}
 .workers-background {
     background-color: #F4F4FD;
     padding: 120px 0;
