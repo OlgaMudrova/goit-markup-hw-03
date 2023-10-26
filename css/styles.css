@@ -143,7 +143,7 @@ body {
 
 .address-list {
     display: flex;
-    column-gap: 40px;
+    margin-right: 40px 0;
 }
 
 /*<!-- HERO SECTION 1-->*/
