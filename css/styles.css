@@ -145,7 +145,7 @@ body {
 
 .address-list {
     display: flex;
-    gap: 40px 0;
+    gap: 40px                       ;
 }
 
 /*<!-- HERO SECTION 1-->*/
@@ -268,8 +268,8 @@ margin-top: 48px;
 
 /*<!--INGREDIENTS SECTION 3-->*/
 
-.workers-add {
-    padding: 32px 0;
+.workers-app {
+    padding: 32px;
 }
 .workers-background {
     background-color: #F4F4FD;
