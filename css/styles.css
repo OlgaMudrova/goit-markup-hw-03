@@ -269,7 +269,9 @@ margin-top: 48px;
 /*<!--INGREDIENTS SECTION 3-->*/
 
 .workers-app {
-    padding: 32px;
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .workers-background {
     background-color: #F4F4FD;
@@ -304,16 +306,7 @@ margin-top: 48px;
     
 }
 
-.workers-names {
-font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2E2F42;
-    margin-bottom: 8px;
-    
-}
+
 
 .workers-positions {
         font-size: 16px;
