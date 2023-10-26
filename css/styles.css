@@ -338,6 +338,7 @@ margin-top: 48px;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .portfolio-list {
   display: flex;
@@ -382,11 +383,7 @@ margin-top: 48px;
     margin-bottom: 8px;
     }
 
-    .portfolio-list .portfolio-list-item {
-        margin-bottom: 8px;
-    }
-
-/*<!--PAGE FOOTER-->*/
+    /*<!--PAGE FOOTER-->*/
 .footer-block {
     background-color: #2e2f42;
     padding: 100px 0
