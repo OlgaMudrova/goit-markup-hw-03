@@ -94,9 +94,11 @@ body {
 
 .list {
     display: flex;
-    gap: 40px;
+    margin-right: 40px;
 
 }
+
+
 
 
 .menu-link  {
@@ -270,7 +272,7 @@ margin-top: 48px;
 
 /*<!--INGREDIENTS SECTION 3-->*/
 
-.add {
+.workers-add {
     padding-top: 32px;
     padding-bottom: 32px;
 }
