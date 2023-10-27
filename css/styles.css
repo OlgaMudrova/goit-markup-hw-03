@@ -15,6 +15,7 @@ body {
     
      h1,
      h2,
+     h3,
      p {
         margin-top: 0;
         margin-bottom: 0;
@@ -62,6 +63,7 @@ body {
 .page-header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-navigation {
@@ -280,6 +282,7 @@ margin-top: 48px;
 .workers-names {
         text-align: center;
         margin-bottom: 8px;
+        font-weight: 500;
         
     }
     
@@ -298,8 +301,7 @@ margin-top: 48px;
 .workers-menu {
     display: flex;
     justify-content: flex-start;
-    gap: 24px;
-    padding: 32px 0;
+    gap: 24px;                      
     padding: 32px 0;
 }
 
@@ -385,8 +387,7 @@ margin-top: 48px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
-    }
+        }
 
     /*<!--PAGE FOOTER-->*/
 .footer-block {
